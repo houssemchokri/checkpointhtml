@@ -3,30 +3,25 @@
         <head>
            <meta charset="UTF-8">
            <meta name="description" content="welcom to my website">
-           <link rel="stylesheet" href="style.css">
+           <link rel="stylesheet" type="text/css" href="css/style.css">
            <title>create an account</title>   
            <script></script>
            <style>
-                body{background:rgb(56, 173, 91)}  
-                .test
-                {
-                  font-size:20px
-                }  
-                .test1
-                {
-                  color:crimson;font-size:30px
-                }
+              body {
+                text-align: center;
+                background-image: url('res/body.jpg');
+              }
            </style>
         </head>
       <body>
         <div>
-            <fieldset>
-              <legend class="test1">Create an  Account</legend>
-              <form class="test" name="register" action="post.php" >  
+            <fieldset style="padding: 30px;">
+              <legend style="font-size:40px;font-family:roman;color:rgba(243, 6, 105, 0.637)">Create an  Account</legend>
+              <form  name="register" action="post.php" class="form1">  
                       <label> Name:</label>
                       <br>
-                      <input type="text" name="first name" value="" placeholder=" First">
-                      <input type="text" name="name" value="" placeholder="Last">
+                      <input type="text" name="first name" value="" placeholder=" First" style="width:20%;">
+                      <input type="text" name="name" value="" placeholder="Last" style="width:20%;">
                       <br>
                       <label>Adresse e-mail:</label>
                       <br>
@@ -38,7 +33,7 @@
                      <br>
                      <label>Birthday:</label>
                      <br>
-                     <select name="month">
+                     <select name="month" style="width:20%;">
                          <option>January</option>
                          <option>February</option>
                          <option>March</option>
@@ -52,19 +47,21 @@
                          <option>November</option>
                          <option>November</option>
                      </select>
-                     <input type="number" name="day" placeholder="day">
-                     <input type="number" name="year" placeholder="year">
+                     <input type="number" name="day" placeholder="day"style="width:20%;">
+                     <input type="number" name="year" placeholder="year"style="width:20%;">
                      <br>
                      <label>Mobile Phone:</label>
                      <br>
-                     <input type="number" name="number Phone"  placeholder="your Mobile Phone">
+                     <input type="text" name="number Phone"  placeholder="your Mobile Phone" style="width:20%;">
                      <br>
                      <label>sex:</label>
                      <br>
+                     <div style="font-size:25px ; color:#000">
                      <input type="radio" name="sex"value="male">male
-                     <input type="radio" name="sex"value="female">female
+                     <input type="radio" name="sex"value="female" >female
+                     </div>
                      <br>
-                     <input type="submit" value="Sing Up">
+                     <input type="submit" value="Sing Up" >
                </form>
             </fieldset>
            </div>
