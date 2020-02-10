@@ -1,0 +1,128 @@
+body
+{
+background-color:silver
+}
+                                                       /*style for page web index.html */
+.test
+ {
+    text-align:center;color:rgb(236, 27, 156);font-size:90px; font-family:forte;
+}
+.link
+{
+    font-size:50px;text-align:center;
+}
+a:visited,a:link
+{
+   color:pink;;padding: 10px 15px;text-decoration: none;
+}
+a:hover
+{
+ color:rgb(182, 124, 16)
+}
+#image
+{
+    width:1340px;px;height:800px;
+}
+.paragraph
+{
+    text-align:center;font-size:70px;font-family:monospace;color:rgb(126, 107, 230)
+}
+.imageI
+{
+    width:340;height:250px;;margin-left:40px;
+}
+#ligne
+{
+    color:rgb(197, 47, 164);font-size: 20px;
+}
+.paragraph1
+{
+     text-align:center;font-size:40px;font-family:'Franklin Gothic Medium';
+     color:rgb(36, 192, 192);(126, 107, 230)
+}
+video {
+    width:800px;height:300px;
+  }
+                                                  /*style for page web courses.html */
+.courses
+{
+    
+    text-align: center ;font-size:100px;color:rgba(179, 177, 50, 0.534);font-family:algerian;letter-spacing:25px
+}
+.form
+{
+    text-align: center;font-size:25px;font-family:Juice ITC
+}
+.paragraphC
+{
+    text-align:center;font-size:70px;font-family:Juice ITC;color:rgb(22, 165, 153);letter-spacing:10px
+}
+                                                 /*style for page web contact.html */
+.contact
+{
+    
+    text-align: center ;font-size:100px;color:rgba(212, 4, 4, 0.884);font-family:juice ITC;letter-spacing:30px ;
+    
+}
+
+.container 
+{
+    color:#ff000065;
+    font-family: arial;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: #7385b663;
+    padding: 25px;
+}
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  input[type=button]
+  {
+    width: 8%;
+    padding: 10px;
+
+  }
+  input[type=text],textarea
+  {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  input[type=password] 
+  {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  input[type=submit]
+   {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+  }
+
+  .link1
+{
+    font-size:30px;text-align:right;
+}
+                                         /* style for page web creat a count.html*/                              
+  input[type=number],select
+  {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  } 
+  .form1
+  {
+  font-size: 35px;
+    font-family: inherit;
+    color:rgb(126, 107, 230)
+  }
